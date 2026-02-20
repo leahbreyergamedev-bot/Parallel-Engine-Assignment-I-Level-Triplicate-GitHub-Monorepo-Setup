@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://da6rkn6wkwghn"]
+
+[ext_resource type="Script" uid="uid://barpc8xqqmwjd" path="res://PressurePlate.gd" id="1_uot4y"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uot4y"]
+albedo_color = Color(0.18295673, 0.39599884, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_k6yph"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_k6yph"]
+
+[node name="PressurePlate" type="Node3D" unique_id=26765394]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=286239414]
+transform = Transform3D(1, 0, 0, 0, 0.14745766, 0, 0, 0, 1, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_uot4y")
+mesh = SubResource("BoxMesh_k6yph")
+
+[node name="Area3D" type="Area3D" parent="." unique_id=880706781]
+script = ExtResource("1_uot4y")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=666546744]
+shape = SubResource("BoxShape3D_k6yph")
