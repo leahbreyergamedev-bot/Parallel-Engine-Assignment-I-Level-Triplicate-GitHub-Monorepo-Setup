@@ -21,8 +21,9 @@
 data = PackedVector3Array(1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, 1, -1, 0, -1, 1, 0, -1)
 
 [node name="World" type="Node3D" unique_id=1010242586]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8021836, -0.49577975, -3.8568733)
 
-[node name="ProtoController" parent="." unique_id=1703092261 instance=ExtResource("1_b2ar6")]
+[node name="Player" parent="." unique_id=1703092261 instance=ExtResource("1_b2ar6")]
 
 [node name="Tree1" type="MeshInstance3D" parent="." unique_id=1652807308]
 transform = Transform3D(-0.7266346, 0, -0.6870241, 0, 1, 0, 0.6870241, 0, -0.7266346, -3.9930754, 0, 0)
@@ -97,7 +98,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7040367, 0, 1.8856337)
 mesh = ExtResource("9_kva58")
 
 [node name="Floor" type="MeshInstance3D" parent="." unique_id=1398928880]
-transform = Transform3D(2765.526, 0, 0, 0, 1555.6183, 0, 0, 0, 592.34564, -0.004600525, 0, 0.008088112)
+transform = Transform3D(2334.6458, 0, 0, 0, 1313.2467, 0, 0, 0, 500.0558, -0.004600525, 0, 0.008088112)
 mesh = SubResource("PlaneMesh_fvag4")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Floor" unique_id=1024687431]
@@ -172,4 +173,4 @@ mesh = ExtResource("12_ee7l0")
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -1.2127447, 1.6475482, 3.4721248)
 
 [node name="PressurePlate" parent="." unique_id=26765394 instance=ExtResource("14_ee7l0")]
-transform = Transform3D(1, 0, 0, 0, 1.2031665, 0, 0, 0, 1, -2.733531, 0.07372907, 5.1239705)
+transform = Transform3D(0.34864193, 0, 0, 0, 12.8280115, 0, 0, 0, 1, -2.733531, 0.07372907, 5.1239705)
