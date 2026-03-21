@@ -12,6 +12,10 @@
 [ext_resource type="ArrayMesh" uid="uid://vp6im5qgvt3f" path="res://Assets/kenney_graveyard-kit_5.0/Models/OBJ format/fence.obj" id="10_f5c0m"]
 [ext_resource type="ArrayMesh" uid="uid://blbqknja3buyy" path="res://Assets/kenney_graveyard-kit_5.0/Models/OBJ format/shovel.obj" id="11_b2ar6"]
 [ext_resource type="ArrayMesh" uid="uid://dllw2xt8q5ayq" path="res://Assets/kenney_graveyard-kit_5.0/Models/OBJ format/lightpost-double.obj" id="12_ee7l0"]
+<<<<<<< Updated upstream
+=======
+[ext_resource type="PackedScene" path="res://pressure_plate.tscn" id="14_ee7l0"]
+>>>>>>> Stashed changes
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_fvag4"]
 
